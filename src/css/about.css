@@ -1,0 +1,46 @@
+
+.about-section {
+    padding: 4rem 2rem;
+    background-color: #fdfdfb;
+    color: #111827;
+    min-height: 80vh;
+}
+
+.about-section h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    color: black;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    color: #29417C;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.about-logo img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,88 @@
+.header {
+    background-color: #29417C;
+    padding: 15px 30px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.loGo img {
+    height: 80px;
+    object-fit: contain;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-container a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-container a:hover {
+    background-color: #535bf2;
+}
+
+.auth-button button {
+    background-color: #cbd3e3;
+    color: #1f3261;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .left-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .nav-container a {
+        padding-left: 0;
+    }
+
+    .auth-button {
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.transaction-page {
+  background-color: #7c82b4;
+  padding: 30px;
+  min-height: 80vh;
+}
+
+.transaction-title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.transaction-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-summary, .notifications {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 65%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: black;
+}
+
+.notifications {
+  width: 30%;
+}
+
+.project-summary h3,
+.notifications h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  background-color: #f3f3f3;
+  color: black;
+}
+
+td {
+  padding: 10px;
+  vertical-align: middle;
+  color: black;
+}
+
+.urgency, .status {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.urgency.minor {
+  background-color: #e7f7f1;
+  color: #48bb78;
+}
+
+.urgency.moderate {
+  background-color: #fff8dc;
+  color: #e69e00;
+}
+
+.urgency.critical {
+  background-color: #ffe2dc;
+  color: #e53e3e;
+}
+
+.status.review {
+  background-color: #d4e9f9;
+  color: #3182ce;
+}
+
+.status.ongoing {
+  background-color: #f3f3f3;
+  color: #555;
+}
+
+.status.pending {
+  background-color: #f3e8e8;
+  color: #555;
+}
+
+.status.completed {
+  background-color: #c6f6d5;
+  color: #2f855a;
+}
+
+.status.delivery {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.row-pink {
+  background-color: #f8d1d1;
+}
+
+.row-green {
+  background-color: #affac4;
+}
+
+.row-yellow {
+  background-color: #fef4c5;
+}
+
+.call-btn,
+.completed-btn,
+.details-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.call-btn img{
+  width: 1rem;
+}
+.call-btn {
+  background-color: #9df6b2;
+  border-radius: 6% 94% 9% 91% / 17% 0% 100% 83%;
+  width: 10%;
+}
+
+.completed-btn {
+  background-color: #6c757d;
+  border-radius: 6% 94% 9% 91% / 17% 0% 100% 83%;
+  color: white;
+  width: 10%;
+}
+
+.details-btn {
+  background-color: #76b5f9;
+  color: white;
+}
+
+.notifications ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notifications li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.notif-green {
+  background-color: #d5fce0;
+}
+
+.notif-yellow {
+  background-color: #fff3b4;
+}
+
+.notif-pink {
+  background-color: #f7caca;
+}
+  

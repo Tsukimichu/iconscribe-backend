@@ -1,0 +1,17 @@
+.Hero {
+    background-image: url(../assets/org.jpg);
+    background-size: cover;
+    background-position:right; 
+    background-repeat: no-repeat; 
+    padding: 5rem;
+    color: white; 
+    height: 73vh; 
+    display: flex;
+    align-items: center;
+    text-align: left;
+    position: relative;
+}
+
+.Hero p, h1 {
+    color: #fff;
+}
